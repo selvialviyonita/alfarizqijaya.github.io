@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-blue bg-white shadow-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">ALFARIZQI JAYA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#tentang">Tentang Kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#layanan">Layanan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portofolio">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Hubungi Kami</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+            </span>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid banner">
+        <div class="container text-center">
+            <h3 class="display-5">Solusi Survey Pemetaan</h3>
+            <h3 class="display-5">dan Pengukuran Anda</h3>
+            <a href="#layanan">
+                <button type="button" class="btn custom-blue btn-lg">
+                  Cek Layanan
+                </button>
+            </a>
+        </div>
+      </div>
+      <!-- tentang -->
+      <div id="tentang" class="container-fluid pt-5 pb-5">
+        <div class="container">
+          <h2 class="display-6 text-center">Tentang Kami</h2>
+          <p class="text-center">
+          </p>
+          <div class="clearfix pt-5">
+            <img 
+              src="https://i.pinimg.com/564x/92/83/03/9283035b127fbafc1169b4e69713fe7f.jpg" 
+              class="col-md-6 float-md-end mb-3 crop-img" 
+              width="300" 
+              height="300">
+          </img>
+
+            <p class="justify-text">
+              CV Alfarizqi Jaya adalah perusahaan yang berlokasi di Samarinda, Kalimantan Timur, 
+              dan bergerak di bidang jasa survei, pemetaan, dan pengukuran. 
+              Kami memiliki pengalaman dan keahlian dalam menyediakan berbagai layanan profesional seperti 
+              pemetaan topografi, pengukuran batas, survei UAV LiDAR, serta pemetaan kemajuan proyek. Dengan komitmen terhadap akurasi dan kecepatan, 
+              kami selalu berupaya memberikan hasil yang memuaskan bagi klien dari berbagai sektor, 
+              mulai dari konstruksi, pertambangan, hingga pengelolaan lahan.
+            </p>
+            <p class="justify-text">
+              Kami siap menjadi mitra terpercaya dalam memenuhi kebutuhan survei dan pemetaan Anda dengan hasil yang akurat dan berkualitas.
+            </p>
+        </div>
+      </div>
+      <!-- layanan -->
+      
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .contact-section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .contact-button {
+            background-color: #007bff; /* Warna biru */
+            color: white; /* Warna teks putih */
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .contact-button:hover {
+            background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+        }
+
+        .message-box {
+            background-color: #f0f8ff; /* Warna biru muda */
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .message-text {
+            font-size: 18px;
+            color: #000; /* Warna teks hitam */
+        }
+
+        /* CSS untuk layanan */
+        .container-fluid.layanan {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #f9f9f9;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+            border-radius: 10px;
+        }
+
+        .card img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+
+<!-- Bagian Layanan Survey dan Pemetaan -->
+<div class="container-fluid layanan pt-5 pb-5">
+    <div class="container text-center">
+        <h2 class="display-6" id="layanan">Layanan Survey dan Pemetaan Kami</h2>
+        <div class="row pt-4 gx-4 gy-4">
+            <div class="col-md-4">
+                <div class="card crop-img">
+                    <img 
+                        src="https://images.pexels.com/photos/6772186/pexels-photo-6772186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                        class="card-img-top" 
+                        width="200"
+                        height="200"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Pemetaan Topografi</h5>
+                        <p class="card-text">Pemetaan topografi adalah proses pembuatan peta yang menggambarkan bentuk dan kontur permukaan tanah beserta fitur-fitur alami dan buatan manusia untuk tujuan perencanaan, analisis, dan navigasi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card crop-img">
+                    <img 
+                        src="https://i.pinimg.com/564x/1b/29/91/1b29918467d952f8d85cd2c69aa780cb.jpg"
+                        class="card-img-top" 
+                        width="200"
+                        height="200"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Pengukuran Kavling</h5>
+                        <p class="card-text">Pengukuran kavling adalah proses menentukan dan menetapkan batas-batas serta ukuran suatu bidang tanah untuk tujuan penjualan, pembangunan, atau administrasi lahan.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card crop-img">
+                    <img 
+                        src="https://i.pinimg.com/564x/6c/cf/2e/6ccf2ed0e38da1da8db7eab97b1e0dcc.jpg" 
+                        class="card-img-top" 
+                        width="200"
+                        height="200"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">Pemetaan Jalan</h5>
+                        <p class="card-text">Pemetaan jalan adalah proses membuat peta yang menunjukkan rute, kondisi, dan fitur jalan untuk keperluan perencanaan, perbaikan, dan navigasi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card crop-img">
+                  <img 
+                      src="https://store.terra-drone.co.id/wp-content/uploads/2021/11/WhatsApp-Image-2021-10-29-at-11.41.00-AM-1024x682.jpeg"
+                      class="card-img-top" 
+                      width="200"
+                      height="200"
+                  />
+                  <div class="card-body">
+                      <h5 class="card-title">Pemetaan Lidar UAV</h5>
+                      <p class="card-text">Pemetaan LIDAR UAV adalah teknik pemetaan yang menggunakan sensor LiDAR yang dipasang pada drone untuk menghasilkan data topografi dengan akurasi tinggi melalui pemindaian laser dari udara.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+                <img 
+                    src="https://www.kilausurya.co.id/wp-content/uploads/2022/04/35tapal-batas.jpeg" 
+                    class="card-img-top" 
+                    width="200"
+                    height="200"
+                />
+                <div class="card-body">
+                    <h5 class="card-title">Pengukuran Tapal Batas</h5>
+                    <p class="card-text">Pengukuran tapal batas adalah proses penentuan dan pemetaan batas-batas wilayah atau lahan secara akurat menggunakan alat ukur geodetik.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+          <div class="card crop-img">
+              <img 
+                  src="https://mengaspal.com/wp-content/uploads/2021/10/jasa-ukur-jakarta-1-768x513.webp" 
+                  class="card-img-top" 
+                  width="200"
+                  height="200"
+              />
+              <div class="card-body">
+                  <h5 class="card-title">Pemetaan Progress</h5>
+                  <p class="card-text">Pemetaan progress adalah pemantauan dan dokumentasi visual perkembangan suatu pekerjaan lapangan secara berkala menggunakan teknik survei dan pemetaan.</p>
+              </div>
+          </div>
+      </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container mt-5">
+  <h2 class="display-6" id="portofolio">Portofolio Proyek Survey dan Pemetaan</h2>
+  <div class="row">
+      <!-- Kolom Portofolio 1 -->
+      <div class="col-md-3 portfolio-item">
+          <img src="https://i.ibb.co/VwbbqVN/gg-keramat.jpg" class="img-fluid portfolio-image" alt="Portfolio 1">
+          <h5 class="mt-2 text-center">Pemasangan Patok di Gg Keramat</h5>
+      </div>
+      <!-- Kolom Portofolio 2 -->
+      <div class="col-md-3 portfolio-item">
+          <img src="https://i.ibb.co/jkQPcsC/loa-janan.jpg" class="img-fluid portfolio-image" alt="Portfolio 2">
+          <h5 class="mt-2 text-center">Pengukuran Lahan di Loa janan</h5>
+      </div>
+      <!-- Kolom Portofolio 3 -->
+      <div class="col-md-3 portfolio-item">
+          <img src="https://i.ibb.co/0tLHxYb/palaran.jpg" class="img-fluid portfolio-image" alt="Portfolio 3">
+          <h5 class="mt-2 text-center">Pengukuran Lahan di Kec Palaran</h5>
+      </div>
+      <!-- Kolom Portofolio 4 -->
+      <div class="col-md-3 portfolio-item">
+          <img src="https://i.ibb.co/gvzVr66/patok-sungai-kunjang.jpg" class="img-fluid portfolio-image" alt="Portfolio 4">
+          <h5 class="mt-2 text-center">Pemasangan Patok di Kec Sungai Kunjang</h5>
+      </div>
+      <!-- Kolom Portofolio 5 -->
+      <div class="col-md-3 portfolio-item">
+          <img src="https://i.ibb.co/QfZTfRL/patok.jpg" class="img-fluid portfolio-image" alt="Portfolio 5">
+          <h5 class="mt-2 text-center">Pemasangan patok</h5>
+      </div>
+      <!-- Kolom Portofolio 6 -->
+      <div class="col-md-3 portfolio-item">
+          <img src="https://i.ibb.co/9Tj5BT8/pengkuran-lahan-2.jpg" class="img-fluid portfolio-image" alt="Portfolio 6">
+          <h5 class="mt-2 text-center">Pengukuran Lahan Klien</h5>
+      </div>
+      <!-- Kolom Portofolio 7 -->
+      <div class="col-md-3 portfolio-item">
+          <img src="https://i.ibb.co/hDytyJn/pengukuran-lahan-1.jpg" class="img-fluid portfolio-image" alt="Portfolio 7">
+          <h5 class="mt-2 text-center">Pengukuran Lahan Klien</h5>
+      </div>
+      <!-- Kolom Portofolio 8 -->
+      <div class="col-md-3 portfolio-item">
+          <img src="https://i.ibb.co/GQYYZnB/pengukuran-lahan-3.jpg" class="img-fluid portfolio-image" alt="Portfolio 8">
+          <h5 class="mt-2 text-center">Pengukuran Lahan Klien</h5>
+      </div>
+      <!-- Kolom Portofolio 7 -->
+      <div class="col-md-3 portfolio-item">
+        <img src="https://i.ibb.co/4P4y9MN/pengukuran-lahan-4.jpg" class="img-fluid portfolio-image" alt="Portfolio 7">
+        <h5 class="mt-2 text-center">Pengukuran Lahan Klien</h5>
+      </div>
+      <!-- Kolom Portofolio 7 -->
+      <div class="col-md-3 portfolio-item">
+        <img src="https://i.ibb.co/rvzvCJM/pengukuran-lahan-5.jpg" class="img-fluid portfolio-image" alt="Portfolio 7">
+        <h5 class="mt-2 text-center">Pengukuran Lahan Klien</h5>
+      </div>
+      <!-- Kolom Portofolio 7 -->
+      <div class="col-md-3 portfolio-item">
+        <img src="https://i.ibb.co/xYJ5WRh/pengukuran-tanah-sungai-kunjang.jpg" class="img-fluid portfolio-image" alt="Portfolio 7">
+        <h5 class="mt-2 text-center">Pengukuran Lahan Daerah Sungai Kunjang</h5>
+      </div>
+      <!-- Kolom Portofolio 7 -->
+      <div class="col-md-3 portfolio-item">
+        <img src="https://i.ibb.co/GQxVZzq/sungai-kunjang.jpg" class="img-fluid portfolio-image" alt="Portfolio 7">
+        <h5 class="mt-2 text-center">Pengukuran Lahan Daerah Sungai Kunjang</h5>
+      </div>
+
+      
+  </div>
+</div>
+
+<!-- Bagian Hubungi Kami -->
+<div id="kontak" class="contact-section">
+    <div class="container">
+        <h2>Hubungi Kami Sekarang Juga</h2>
+
+        <div class="message-box">
+            <p class="message-text">Biarkan kami yang menangani proyek survey Anda!</p>
+        </div>
+
+        <!-- Tombol Kontak Kami -->
+        <a href="https://wa.me/6282251804098?text=Hubungi%20Kami%20Sekarang%20Juga%21%20Biarkan%20kami%20yang%20menangani%20proyek%20survey%20Anda%21" target="_blank" class="contact-button">Kontak Kami</a>
+    </div>
+</div>
+
+      <footer class="bg-white text-dark pt-5 pb-4">
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-info">Tentang Kami</h5>
+              <hr class="mb-4">
+              <p class="justify-text">
+                CV Alfarizqi Jaya adalah perusahaan yang berlokasi di Samarinda, Kalimantan Timur, 
+                dan bergerak di bidang jasa survei, pemetaan, dan pengukuran. 
+                Kami memiliki pengalaman dan keahlian dalam menyediakan berbagai layanan profesional seperti 
+                pemetaan topografi, pengukuran batas, survei UAV LiDAR, serta pemetaan kemajuan proyek.
+              </p>
+            </div>
+
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h5 class="text-uppercase mb-4 font-weight-bold text-info">Layanan Kami</h5>
+              <hr class="mb-4">
+              <p>
+                <a href="#" class="text-dark" style="text-decoration:none">Pemetaan Tofografi</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration:none">Pengukuran Kavling</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration:none">Pengembalian Batas</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration:none">Pemetaan Lidar UAV</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration:none">Pemetaan Progress</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration:none">Pemetaan Jalan</a>
+              </p>
+              <p>
+                <a href="#" class="text-dark" style="text-decoration:none">Pengukuran Tapal Batas</a>
+              </p>
+          </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-info">Kontak</h5>
+          <hr class="mb-4">
+          <p>
+            <li class="fas fa-home mr-3"></li>Samarinda-Kaltim
+          </p>
+          <p>
+            <li class="fas fa-phone mr-3"></li>+82251804098
+          </p>
+          <p>
+            <li class="fas fa-envelope mr-3"></li>alfarizqijaya99@gmail.com
+          </p>
+      </div>   
+
+      <hr class="mb-4">
+      <div class="row d-flex justify-content-center">
+        <div>
+          <p>
+            Copyright 2024 All Rights Reserved By:
+            <a href="a" style="text-decoration:none;">
+              <strong class="text-info">Selvi Alviyonita</strong>
+            </a>
+          </p>
+        </div>
+      </div>
+        </div>
+
+      </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

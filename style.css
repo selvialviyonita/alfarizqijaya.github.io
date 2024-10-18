@@ -1,0 +1,38 @@
+/* Mengatur tombol dengan warna biru dan teks putih */
+.custom-blue {
+    background-color: #007bff; /* Warna latar belakang biru */
+    color: white; /* Warna teks putih */
+    border: none; /* Menghilangkan border default */
+}
+
+.custom-blue:hover {
+    background-color: #0056b3; /* Warna biru gelap saat hover */
+}
+
+
+.banner {
+    background: url("https://transform-mpi.com/wp-content/uploads/2017/12/PEMETAAN-DAN-SURVEY-LAPANGAN.jpg") 
+        no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color:blue;
+}
+
+.crop-img {
+    object-fit: cover;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.portfolio-image {
+    height: 250px; /* Set a fixed height */
+    width: 100%; /* Set width to 100% to maintain responsiveness */
+    object-fit: cover; /* Ensure the image covers the entire area without stretching */
+}
+
+.portfolio-item {
+      margin-bottom: 20px; /* Add space between portfolio items */
+  }
