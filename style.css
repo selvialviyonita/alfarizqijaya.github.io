@@ -1,7 +1,7 @@
 /* Mengatur tombol dengan warna biru dan teks putih */
 .custom-blue {
     background-color: #007bff; /* Warna latar belakang biru */
-    color: #007bff; /* Warna teks putih */
+    color: white; /* Warna teks putih */
     border: none; /* Menghilangkan border default */
 }
 
