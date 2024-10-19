@@ -1,13 +1,13 @@
 /* Mengatur tombol dengan warna biru dan teks putih */
-.btn.custom-blue {
-    background-color: #007bff; /* Warna biru */
+.custom-blue {
+    background-color: #007bff; /* Warna latar belakang biru */
     color: white; /* Warna teks putih */
+    border: none; /* Menghilangkan border default */
 }
 
-.btn.custom-blue:hover {
-    background-color: #0056b3; /* Warna biru lebih gelap saat hover */
+.custom-blue:hover {
+    background-color: #0056b3; /* Warna biru gelap saat hover */
 }
-
 
 /* Banner styling */
 .banner {
