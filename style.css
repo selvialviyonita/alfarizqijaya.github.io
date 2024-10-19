@@ -9,24 +9,59 @@
     background-color: #0056b3; /* Warna biru gelap saat hover */
 }
 
-
+/* Banner styling */
 .banner {
     background: url("https://transform-mpi.com/wp-content/uploads/2017/12/PEMETAAN-DAN-SURVEY-LAPANGAN.jpg") 
         no-repeat center center;
     background-size: cover;
     padding-top: 20%;
     padding-bottom: 20%;
-    color:blue;
+    color: blue;
+    text-align: center; /* Memastikan teks berada di tengah */
 }
 
+.banner h3 {
+    font-size: 2rem; /* Ukuran lebih kecil pada layar kecil */
+}
+
+/* Responsif banner */
+@media (max-width: 768px) {
+    .banner {
+        padding: 50px 0; /* Mengurangi padding di layar kecil */
+    }
+}
+
+@media (max-width: 576px) {
+    .banner h3 {
+        font-size: 1.5rem; /* Menyesuaikan ukuran teks di layar kecil */
+    }
+
+    .banner .btn {
+        font-size: 1rem; /* Ukuran tombol lebih kecil di layar kecil */
+        padding: 10px 20px; /* Sesuaikan padding tombol */
+    }
+}
+
+/* Navbar styling */
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 0.9rem; /* Ukuran lebih kecil untuk layar kecil */
+    }
+}
+
+/* Crop image styling */
 .crop-img {
     object-fit: cover;
 }
 
+/* Justify text */
 .justify-text {
     text-align: justify;
 }
 
+/* Portfolio image styling */
 .portfolio-image {
     height: 250px; /* Set a fixed height */
     width: 100%; /* Set width to 100% to maintain responsiveness */
@@ -34,5 +69,5 @@
 }
 
 .portfolio-item {
-      margin-bottom: 20px; /* Add space between portfolio items */
-  }
+    margin-bottom: 20px; /* Add space between portfolio items */
+}
